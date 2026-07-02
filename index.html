@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LUMI Restaurant in Batumi for panoramic dining, private events, live music, cuisine, cocktails, and WhatsApp reservations." />
+  <title>LUMI Restaurant — Events & Dining</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=14" />
+  <link rel="shortcut icon" href="favicon.ico?v=14" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=14" />
+  <meta name="theme-color" content="#0f0d09" />
+  <link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/img/dish_salmon.webp" />
+  <link rel="preload" as="image" href="assets/img/event_music.webp" />
+  <link rel="stylesheet" href="styles.css?v=13" />
+</head>
+<body>
+  <div class="page-loader" aria-hidden="true"><div class="loader-mark">LUMI</div></div>
+  <div class="page-transition" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true" data-scroll-progress></div>
+  <div class="cursor-glow" aria-hidden="true" data-cursor-glow></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="LUMI home">LUMI</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#spaces">SPACE</a>
+      <a href="#cuisine">CUISINE</a>
+      <a href="#events">LIVE MUSIC</a>
+      <a href="#menu">MENU</a>
+      <a href="#contact">CONTACT US</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" aria-label="Language switcher">
+        <button type="button" data-lang="geo" onclick="window.setLumiLanguage && window.setLumiLanguage('geo')" aria-pressed="false">GEO</button>
+        <button type="button" class="active" data-lang="eng" onclick="window.setLumiLanguage && window.setLumiLanguage('eng')" aria-pressed="true">ENG</button>
+        <button type="button" data-lang="rus" onclick="window.setLumiLanguage && window.setLumiLanguage('rus')" aria-pressed="false">RUS</button>
+      </div>
+      <a class="header-cta" href="https://wa.me/995511484848" target="_blank" rel="noopener">CONTACT US</a>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button onclick="window.toggleLumiMenu && window.toggleLumiMenu(event)"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu aria-hidden="true">
+    <div class="mobile-lang-switch" aria-label="Mobile language switcher">
+      <button type="button" data-lang="geo" onclick="window.setLumiLanguage && window.setLumiLanguage('geo')" aria-pressed="false">GEO</button>
+      <button type="button" class="active" data-lang="eng" onclick="window.setLumiLanguage && window.setLumiLanguage('eng')" aria-pressed="true">ENG</button>
+      <button type="button" data-lang="rus" onclick="window.setLumiLanguage && window.setLumiLanguage('rus')" aria-pressed="false">RUS</button>
+    </div>
+    <a href="#spaces">SPACE</a>
+    <a href="#cuisine">CUISINE</a>
+    <a href="#events">LIVE MUSIC</a>
+    <a href="#menu">MENU</a>
+    <a href="#contact">CONTACT US</a>
+    <a class="mobile-cta" href="https://wa.me/995511484848" target="_blank" rel="noopener">CONTACT US</a>
+  </div>
+
+  <main id="home">
+    <section class="hero section-clip">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">LUMI Restaurant · Batumi · 11th floor</p>
+        <h1>LUMI Restaurant: The Perfect Venue for Your Event</h1>
+        <p class="hero-text">Panoramic views, cuisine, live music, and full support for birthdays, weddings, private meetings, and special evenings in Batumi.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary magnetic" href="#contact">Book Your Event</a>
+          <a class="btn btn-secondary magnetic" href="#menu">View Menu</a>
+          <a class="btn btn-secondary magnetic" href="#gallery">Explore Gallery</a>
+        </div>
+      </div>
+      <div class="hero-card reveal reveal-delay">
+        <span>Capacity</span>
+        <strong>200 guests</strong>
+        <p>Restaurant capacity, conference room, panoramic views, and event support.</p>
+      </div>
+      <a class="scroll-hint" href="#spaces" aria-label="Scroll to spaces"><span></span></a>
+    </section>
+
+    <section id="spaces" class="spaces padded-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Space for every format</p>
+        <h2>From intimate meetings to large-scale events, LUMI is ready for any occasion.</h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card reveal tilt-card" data-tilt><span class="stat-number" data-counter="200">0</span><p>Guests · restaurant capacity</p></article>
+        <article class="stat-card reveal reveal-delay-1 tilt-card" data-tilt><span class="stat-number" data-counter="20">0</span><p>Guests · conference room</p></article>
+        <article class="stat-card reveal reveal-delay-2 tilt-card" data-tilt><span class="stat-number" data-counter="360">0</span><p>Panoramic city view</p></article>
+      </div>
+      <div class="feature-split">
+        <div class="feature-image parallax-card reveal" data-speed="0.12">
+          <img src="assets/img/hero.webp" alt="LUMI restaurant interior with panoramic view in Batumi" loading="eager" fetchpriority="high" decoding="async" width="900" height="900" />
+        </div>
+        <div class="feature-copy reveal reveal-delay-1">
+          <h3>Modern interior, flexible layout, and service for every occasion.</h3>
+          <p>Panoramic seating, warm lighting, private event support, and fast WhatsApp reservations for guests.</p>
+          <ul>
+            <li>Wedding and birthday celebrations</li>
+            <li>Conference/private room support</li>
+            <li>Fast WhatsApp reservations</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="cuisine" class="cuisine section-clip dark-section">
+      <div class="padded-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Signature cuisine</p>
+          <h2>Every dish, drink, and detail adds special meaning to your event.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="glow-card reveal tilt-card" data-tilt><div class="icon">01</div><h3>Chef’s menu</h3><p>Signature dishes with a modern Georgian-European direction.</p></article>
+          <article class="glow-card reveal reveal-delay-1 tilt-card" data-tilt><div class="icon">02</div><h3>Banquet menu</h3><p>For groups, celebrations, banquets, and private events.</p></article>
+          <article class="glow-card reveal reveal-delay-2 tilt-card" data-tilt><div class="icon">03</div><h3>Cocktail bar</h3><p>Classic and signature drinks with strong visual presentation.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery padded-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Restaurant interiors, food, bar, and event atmosphere.</h2>
+      </div>
+      <div class="gallery-grid">
+        <a class="gallery-item tall reveal" href="assets/img/hero.webp" target="_blank" rel="noopener"><img src="assets/img/hero.webp" alt="LUMI restaurant interior with panoramic Batumi view" loading="eager" fetchpriority="high" decoding="async" width="900" height="900" /><span>Interior</span></a>
+        <a class="gallery-item reveal reveal-delay-1" href="assets/img/dish_salmon.webp" target="_blank" rel="noopener"><img src="assets/img/dish_salmon.webp" alt="LUMI signature salmon dish" loading="lazy" decoding="async" width="300" height="400" /><span>Cuisine</span></a>
+        <a class="gallery-item reveal reveal-delay-2" href="assets/img/gallery_wine.webp" target="_blank" rel="noopener"><img src="assets/img/gallery_wine.webp" alt="LUMI wine and cuisine presentation" loading="lazy" decoding="async" width="300" height="400" /><span>Bar</span></a>
+        <a class="gallery-item wide reveal" href="assets/img/event_music.webp" target="_blank" rel="noopener"><img src="assets/img/event_music.webp" alt="LUMI live music night" loading="lazy" decoding="async" width="667" height="1000" /><span>Events</span></a>
+        <a class="gallery-item reveal reveal-delay-1" href="assets/img/gallery_pizza.webp" target="_blank" rel="noopener"><img src="assets/img/gallery_pizza.webp" alt="LUMI pizza presentation" loading="lazy" decoding="async" width="300" height="400" /><span>Pizza</span></a>
+        <a class="gallery-item reveal reveal-delay-2" href="assets/img/gallery_dolma.webp" target="_blank" rel="noopener"><img src="assets/img/gallery_dolma.webp" alt="LUMI Georgian dish presentation" loading="lazy" decoding="async" width="300" height="400" /><span>Georgian</span></a>
+        <a class="gallery-item reveal" href="assets/img/gallery_salad.webp" target="_blank" rel="noopener"><img src="assets/img/gallery_salad.webp" alt="LUMI salad dish" loading="lazy" decoding="async" width="300" height="400" /><span>Fresh</span></a>
+        <a class="gallery-item reveal reveal-delay-1" href="assets/img/gallery_khachapuri.webp" target="_blank" rel="noopener"><img src="assets/img/gallery_khachapuri.webp" alt="LUMI khachapuri dish" loading="lazy" decoding="async" width="300" height="400" /><span>Khachapuri</span></a>
+      </div>
+    </section>
+
+    <section id="events" class="events dark-section padded-section section-clip">
+      <div class="event-panel reveal">
+        <div>
+          <p class="eyebrow">Live music & events</p>
+          <h2>Live Music — The Soul of the Evening</h2>
+          <p>Weekly performances from 9:30 PM to 12:00 AM create a warm atmosphere and unforgettable emotions for guests.</p>
+        </div>
+        <div class="event-list">
+          <span>Live music nights</span><span>Private decoration</span><span>Photo & video support</span><span>Personalized event manager</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-showcase padded-section">
+      <div class="section-heading reveal"><p class="eyebrow">Restaurant menu</p><h2>Choose a section and open the menu instantly.</h2></div>
+      <div class="menu-accordion-wrap" data-menu-accordion-wrap>
+        <details class="menu-accordion reveal" open>
+          <summary><span class="summary-kicker">01 · BREAKFAST MENU</span><strong class="summary-title">Breakfast</strong><em class="summary-meta">10:00–12:00</em></summary>
+          <div class="menu-panel"><div class="menu-category"><h4>Breakfast</h4><div class="menu-list">
+            <div class="menu-row"><div><span>Cheese Omelette</span><small>Eggs, cheese</small></div><b>18 GEL</b></div>
+            <div class="menu-row"><div><span>Vegetarian Omelette</span><small>Eggs, vegetables</small></div><b>18 GEL</b></div>
+            <div class="menu-row"><div><span>Benedict with Salmon</span><small>Egg, brioche, hollandaise sauce, smoked salmon</small></div><b>28 GEL</b></div>
+            <div class="menu-row"><div><span>Shakshuka</span><small>Egg, onion, tomato</small></div><b>19 GEL</b></div>
+            <div class="menu-row"><div><span>Adjarian Khachapuri</span><small>Imeretian cheese, sulguni, egg, mozzarella</small></div><b>22 GEL</b></div>
+            <div class="menu-row"><div><span>Cottage Cheese Pancake</span><small>Cottage cheese, sour cream, raspberries</small></div><b>18 GEL</b></div>
+          </div></div></div>
+        </details>
+
+        <details class="menu-accordion reveal reveal-delay-1">
+          <summary><span class="summary-kicker">02 · FOOD</span><strong class="summary-title">Kitchen menu</strong><em class="summary-meta">Appetizers · salads · mains · seafood · desserts</em></summary>
+          <div class="menu-panel food-panel">
+            <div class="menu-category"><h4>Appetizers & salads</h4><div class="menu-list">
+              <div class="menu-row"><div><span>Eggplant with Walnut Paste</span><small>Fried eggplant roll with walnut paste</small></div><b>20 GEL</b></div>
+              <div class="menu-row"><div><span>European & Georgian Cheese Plate</span><small>Cheese selection, honey, pepper jam, walnut</small></div><b>55 GEL</b></div>
+              <div class="menu-row"><div><span>Chef’s Signature Salmon Tartar</span><small>Salmon gravlax, avocado, capers, cucumber, aioli</small></div><b>42 GEL</b></div>
+              <div class="menu-row"><div><span>Georgian Salad</span><small>Cucumber, tomato, jonjoli, kakhuri oil, cilantro</small></div><b>18 GEL</b></div>
+              <div class="menu-row"><div><span>Caesar Salad with Shrimp</span><small>Romano, aioli sauce, anchovies, parmesan, shrimps</small></div><b>40 GEL</b></div>
+              <div class="menu-row"><div><span>Crispy Eggplant Salad</span><small>Cherry tomatoes, eggplant, roasted nuts, basil, parmesan</small></div><b>24 GEL</b></div>
+            </div></div>
+            <div class="menu-category"><h4>Main dishes & grill</h4><div class="menu-list">
+              <div class="menu-row"><div><span>“Abkhazura” with Blackberry Sauce</span><small>Beef, pork, sweet potato with sulguni, blackberry sauce</small></div><b>44 GEL</b></div>
+              <div class="menu-row"><div><span>LUMI Burger</span><small>BBQ pulled beef, cheddar sauce, jalapeño, fries</small></div><b>35 GEL</b></div>
+              <div class="menu-row"><div><span>Filet Mignon with Pepper Sauce</span><small>Beef, pepper sauce, potato gratin, caramelized onions</small></div><b>75 GEL</b></div>
+              <div class="menu-row"><div><span>Tenderloin with Wine Sauce</span><small>Beef tenderloin, truffle potato puree, red wine sauce</small></div><b>80 GEL</b></div>
+              <div class="menu-row"><div><span>Pork Ribs in BBQ Sauce</span><small>Chef’s barbecue sauce, green onions, sesame seeds</small></div><b>48 GEL</b></div>
+              <div class="menu-row"><div><span>BBQ & Kebab Board</span><small>Chicken, pork, beef kebab, grilled vegetables, tkemali</small></div><b>150 GEL</b></div>
+            </div></div>
+            <div class="menu-category"><h4>Seafood, bakery & desserts</h4><div class="menu-list">
+              <div class="menu-row"><div><span>Salmon in Almond Sauce</span><small>Salmon, almond sauce</small></div><b>68 GEL</b></div>
+              <div class="menu-row"><div><span>Dorado with Coriander Sauce</span><small>Dorado, coriander, vinegar</small></div><b>55 GEL</b></div>
+              <div class="menu-row"><div><span>Fried Shrimps</span><small>Shrimp, butter, lemon, garlic, bread</small></div><b>40 GEL</b></div>
+              <div class="menu-row"><div><span>Adjarian Khachapuri</span><small>Imeretian cheese, sulguni, egg, mozzarella</small></div><b>22 GEL</b></div>
+              <div class="menu-row"><div><span>Basque Cheesecake</span><small>Chocolate, cream cheese, cream, eggs</small></div><b>17 GEL</b></div>
+              <div class="menu-row"><div><span>Chocolate Fondant</span><small>Dark chocolate, ice cream, milk chocolate ganache</small></div><b>20 GEL</b></div>
+            </div></div>
+          </div>
+        </details>
+
+        <details class="menu-accordion reveal reveal-delay-2">
+          <summary><span class="summary-kicker">03 · BAR</span><strong class="summary-title">Drinks & alcohol</strong><em class="summary-meta">Soft drinks · cocktails · beer · spirits · wine</em></summary>
+          <div class="menu-panel food-panel">
+            <div class="menu-category"><h4>Soft drinks & coffee</h4><div class="menu-list">
+              <div class="menu-row"><div><span>Bakuriani Water</span><small>Still water</small></div><b>6 GEL</b></div>
+              <div class="menu-row"><div><span>Borjomi Mineral Water</span><small>Sparkling mineral water</small></div><b>7 GEL</b></div>
+              <div class="menu-row"><div><span>Coca-Cola / Fanta / Sprite</span><small>Classic soft drinks</small></div><b>6 GEL</b></div>
+              <div class="menu-row"><div><span>Homemade Lemonade</span><small>Passion fruit, blackcurrant, strawberry, raspberry, citrus</small></div><b>15 / 30 GEL</b></div>
+              <div class="menu-row"><div><span>Fresh Juices</span><small>Apple, grapefruit, orange</small></div><b>15–17 GEL</b></div>
+              <div class="menu-row"><div><span>Cappuccino / Latte Macchiato</span><small>Hot coffee selection</small></div><b>11–12 GEL</b></div>
+            </div></div>
+            <div class="menu-category"><h4>Cocktails</h4><div class="menu-list">
+              <div class="menu-row"><div><span>Negroni</span><small>Classic cocktail</small></div><b>25 GEL</b></div>
+              <div class="menu-row"><div><span>Old Fashioned</span><small>Classic whiskey cocktail</small></div><b>25 GEL</b></div>
+              <div class="menu-row"><div><span>Whiskey Sour</span><small>Classic sour cocktail</small></div><b>29 GEL</b></div>
+              <div class="menu-row"><div><span>Margarita</span><small>Classic tequila cocktail</small></div><b>26 GEL</b></div>
+              <div class="menu-row"><div><span>Mojito</span><small>Alcoholic / non-alcoholic</small></div><b>25 / 20 GEL</b></div>
+              <div class="menu-row"><div><span>Aperol Spritz</span><small>Aperol, sparkling wine, soda</small></div><b>26 GEL</b></div>
+              <div class="menu-row"><div><span>Espresso Martini</span><small>Coffee cocktail</small></div><b>26 GEL</b></div>
+              <div class="menu-row"><div><span>LUMI Sour</span><small>Tequila, pineapple syrup, blue curaçao, lemon fresh</small></div><b>35 GEL</b></div>
+            </div></div>
+            <div class="menu-category"><h4>Alcohol, wine & champagne</h4><div class="menu-list">
+              <div class="menu-row"><div><span>Black Lion IPA / APA</span><small>0.5L beer</small></div><b>16 GEL</b></div>
+              <div class="menu-row"><div><span>Corona / Heineken</span><small>Bottled beer</small></div><b>14 GEL</b></div>
+              <div class="menu-row"><div><span>Absolut Blue Vodka</span><small>50 ml / 1 L</small></div><b>8 / 150 GEL</b></div>
+              <div class="menu-row"><div><span>Grey Goose Vodka</span><small>50 ml / 1 L</small></div><b>21 / 400 GEL</b></div>
+              <div class="menu-row"><div><span>Chacha Gold</span><small>50 ml / 0.5 L</small></div><b>10 / 90 GEL</b></div>
+              <div class="menu-row"><div><span>Glenfiddich 12 Y.O.</span><small>Scotch whiskey, 50 ml</small></div><b>28 GEL</b></div>
+              <div class="menu-row"><div><span>Chelti Saperavi</span><small>150 ml / 750 ml</small></div><b>20 / 70 GEL</b></div>
+              <div class="menu-row"><div><span>Moët & Chandon Imperial</span><small>Champagne, 750 ml</small></div><b>450 GEL</b></div>
+            </div></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="contact padded-section">
+      <div class="contact-card reveal">
+        <div><p class="eyebrow">Contact us</p><h2>Book your event today</h2><p>Contact LUMI to discuss the date, number of guests, menu, decor, live music, and event details.</p></div>
+        <form class="booking-form" data-form>
+          <label>Name<input type="text" name="name" placeholder="Your name" required /></label>
+          <label>Event type<select name="event" required><option value="">Choose event</option><option>Birthday</option><option>Wedding</option><option>Corporate dinner</option><option>Private party</option></select></label>
+          <label>Message<textarea name="message" placeholder="Date, guests, special wishes"></textarea></label>
+          <button class="btn btn-primary" type="submit">Send WhatsApp Request</button>
+          <p class="form-note" data-form-note></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© 2026 LUMI. Restaurant · events · panoramic dining · Batumi.</p><a href="#home">Back to top</a></footer>
+
+  <script>
+  window.toggleLumiMenu = window.toggleLumiMenu || function(event) {
+    if (event) { event.preventDefault(); event.stopPropagation(); }
+    var body = document.body;
+    var button = document.querySelector('[data-menu-button]');
+    var menu = document.querySelector('[data-mobile-menu]');
+    if (!button || !menu) return false;
+    var isOpen = !menu.classList.contains('open');
+    menu.classList.toggle('open', isOpen);
+    button.classList.toggle('active', isOpen);
+    button.setAttribute('aria-expanded', String(isOpen));
+    menu.setAttribute('aria-hidden', String(!isOpen));
+    body.classList.toggle('menu-open', isOpen);
+    return false;
+  };
+  </script>
+  <script src="script.js?v=13"></script>
+</body>
+</html>
